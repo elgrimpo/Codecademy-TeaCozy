@@ -1,0 +1,140 @@
+* {
+		box-sizing: border-box;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+}
+
+html {
+	background-color: black;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.8;
+	text-align: center;
+
+}
+
+/* ------------ Navigation bar ----------- */
+
+
+nav {
+	position: fixed;
+	top:0;
+	padding: 10px;
+	height: 69px;
+	width: 100%;
+	z-index: 1;
+	background-color: black;
+	display: flex;
+  align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid seashell;
+}
+
+#logo {
+	height: 50px;
+	float: left;
+}
+
+nav ul {
+	float: right;
+	list-style-type: none;
+}
+
+nav a {
+	display: inline;
+	padding: 10px;
+	color: white;
+}
+
+/* ------------ Banner Image ----------- */
+
+header {
+	margin-top: 69px;
+	max-width: 1200px;
+	background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+    align-items: center;
+}
+
+#banner {
+	background-color: black;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#banner h2 {
+	margin-bottom: 15px;
+}
+
+/* ------------ Tea Section ----------- */
+
+#teas {
+	max-width: 1200px;
+	margin: 60px auto;
+}
+
+#tea-gallery {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.tea-tile {
+	padding: 10px;
+}
+
+.tea-tile img {
+	width: 300px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+/* ------------ Locations ----------- */
+
+#locations {
+	background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+	min-height: 500px;
+	background-size: cover;
+	background-position: center;
+	margin: 60px auto;
+	max-width: 1200px;
+	padding-top: 80px;
+}
+
+#location-list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.location-tile {
+	width: 300px;
+	line-height: 3rem;
+	margin: 15px 40px;
+	background-color: black;
+}
+
+/* ------------ Footer ----------- */
+
+footer {
+	width: 100%;
+}
+
+#contact {
+	line-height: 2rem;
+}
+
+#copyrights {
+	float: left;
+	padding: 20px;
+	font-size: 0.8rem;
+
+}
